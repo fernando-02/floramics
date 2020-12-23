@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: rgba(171,171,171,0.83);
+}
+.header {
+	width: 100%;
+	background-color: #52bad5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.div-content {
+	width: 80%;
+	height: 80%;
+}
+@font-face {
+	font-family: "Bright Violet";
+	src:url("../fuentes/Bright Violet.ttf")
+}
+.title-content {
+	font-family: "Bright Violet";
+	font-size: 60px;
+	display: block;
+	margin-left: 11%;
+}
+.aling-content {
+	width: 60%;
+	font-family: Times;
+	font-size: 25px;
+	float: right;
+	text-align: center;
+}
+.arrow {
+	font-family: Times;
+	font-size: 20px;
+}
+.font {
+	font-family: Times;
+	font-size: 17px;
+}
+.font-div {
+	font-family: Times;
+	font-size: 15px;
+}
+.content {
+	float: right;
+	padding-bottom: 5px;
+}
+.form-div {
+	width: 80%;
+	font-family: Times;
+	font-size: 17px;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.aria {
+	border: 1px solid #999;
+	box-sizing: border-box;
+	color: #444;
+	margin: 0.5%;
+	padding: 16px;
+	width: 48.5%;
+}
+.form-item {
+	display: block;
+	margin-left: 32%;
+}
+.main {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 49.5%;
+}
+.item {
+	border: 1px solid #999;
+	box-sizing: border-box;
+	color: #444;
+	margin: 0.5%;
+	padding: 16px;
+	width: 100%;
+}
+.gallery {
+	font-family: "Bright Violet";
+	font-size: 80px;
+	display: block;
+	margin-left: 45%;
+}
+img {
+	transition: all 0.5s ease;
+}
+img:hover {
+	transform: scale(0.9);
+}
+.feet {
+	max-width:100%;
+	background-color: #000000;
+	color: #fff;
+    padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+    box-sizing: border-box;
+	text-align: center;
+}

@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: rgba(171,171,171,0.83);
+}
+.header {
+	width: 100%;
+	background-color: #52bad5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+@font-face {
+	font-family: "CandyQelling";
+	src: url("../fuentes/CandyQelling.ttf");
+}
+.titulo {
+	font-family: "CandyQelling";
+	font-size: 45px;
+	text-align: center;
+}
+.principal_box {
+	height: 100%;
+	width: 100%;
+}
+.left_box {
+	width: 65%;
+	float:left;
+}
+.box_right {
+	width: 35%;
+	float:right;
+	padding: 30px; 
+}
+.image {
+	width: 90%;
+	height:80%;
+	border-style: solid;
+	float: right;
+}
+.list {
+	height: 100%;
+	width:  100%;
+}
+.feet {
+	max-width:100%;
+	background-color: #000000;
+	color: #fff;
+    padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+    box-sizing: border-box;
+	text-align: center;
+}
+/*=====inicio pagina flores=====*/
+.container {
+	width: 100%;
+	height: 100%;
+}
+img {
+	max-width: 100%;
+}
+.item {
+	border: 1px solid #999;
+	box-sizing: border-box;
+	color: #444;
+	display: inline-block;
+	margin: 0.5%;
+	padding: 16px;
+	width: 20.8%;
+	text-align: center;
+}
+/*=====final pagina flores=====*/
+/*=====inicio pagina nosotros=====*/
+.pharagrafe {
+	border:5px solid #000000 ;
+	border:2px solid #000000 ;
+	dislay: inline-block;
+	margin: 0.5%;
+	padding: 16px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+/*=====final pagina nosotros=====*/
+/*=====inicio pagina contacto=====*/ 
+.contenedor .form .form-header .form-title{
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #ff851b;
+	text-align: center;
+	padding: 14px 0;
+	box-sizing:  border-box;
+	padding-bottom: 0px;
+}
+.contenedor .form .form-header .form-title .form-span {
+	color: #fff;
+}
+.contenedor .form {
+	background: rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+.contenedor .form .form-label {
+	display: block;
+	color: #ff851b;
+	font-size: 16px;
+	font-family: Roboto;
+	position: relative;
+}
+.contenedor .form .form-input, .form-textarea {
+	background: rgba(0,0,0,.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #ff851b;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	font-family: Roboto;
+	box-sizing:  border-box;
+}
+.contenedor .form .form-textarea {
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+.contenedor .form .btn-submit {
+	box-sizing:  border-box;
+	width: 100%;
+	font-family: Roboto;
+	outline: none;
+	background: #ff851b;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.contenedor .form .btn-submit:hover {
+	background: #f29718;
+}
+.form-p {
+	font-family: "CandyQelling";
+    font-size: 40px;
+	text-aling: center;
+	letter-spacing: 5px;
+}
+/*=====final pagina contacto=====*/
